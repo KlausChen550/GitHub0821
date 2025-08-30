@@ -103,8 +103,8 @@ body {
 .container {
     max-width: 1320px;
     margin: 0 auto;
-    margin-left: 12px;
-    margin-right: 12px;
+    padding-left: 12px;
+    padding-right: 12px;
     /* overflow-x: hidden; */
 }
 
@@ -197,23 +197,33 @@ body {
     padding: 32px;
 }
 .py-32 {
-    padding: 32px 0;
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 
 .py-24 {
-    padding: 24px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.py-16 {
+    padding-top: 16px;
+    padding-bottom:16px;
 }
 
 .py-12 {
-    padding: 12px;
+    padding-top: 12px;
+    padding-bottom: 12px;
 }
 
 .py-8 {
-    padding: 8px 0;
+    padding-top: 8px;
+    padding-bottom: 8px;
 }
 
 .py-64 {
-    padding: 64px 0;
+    padding-top: 64px;
+    padding-bottom: 64px;
 }
 .pb-48 {
     padding-bottom: 48px;
@@ -234,6 +244,10 @@ body {
     }
     .pb-md-32 {
         padding-bottom: 32px;
+    }
+    .px-md-12 {
+        padding-left: 12px;
+        padding-right: 12px;
     }
     .p-md-24 {
         padding: 24px;
